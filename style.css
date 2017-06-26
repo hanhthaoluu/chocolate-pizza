@@ -1,0 +1,57 @@
+body{
+  margin:30px 110px;
+}
+#delicious{
+  font-family: 'Pacifico', cursive;
+  font-size: 25px;
+
+}
+#the-best{
+  font-family: 'Khand', sans-serif;
+}
+#header-left-left, #header-left{
+  display: inline-block;
+}
+
+#header-left{
+  line-height: 0;
+}
+#six-icons, #two-icons{
+  display: inline;
+}
+#six-icons{
+  margin-right: 10px;
+}
+#header-very-left{
+  padding-left: 100px;
+}
+#header-very-left, #header-right{
+  display: inline;
+}
+#header-right{
+  margin-left: 450px;
+}
+#break{
+  margin:30px 110px;
+}
+#chocolate{
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: 'Oswald', sans-serif;
+  margin-left: 100px;
+}
+#posted{
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  margin-left: 100px;
+}
+
+#top-left, #top-right{
+  display: inline-block;
+}
+#top-left{
+  margin-right: 575px;
+}
+#image{
+  margin-left: 100px;
+}
