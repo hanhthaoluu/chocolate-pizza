@@ -32,7 +32,7 @@ body{
   margin-left: 450px;
 }
 #break{
-  margin:30px 110px;
+  margin:30px 100px;
 }
 #chocolate{
   font-size: 40px;
@@ -41,17 +41,89 @@ body{
   margin-left: 100px;
 }
 #posted{
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'Oswald', sans-serif;
   margin-left: 100px;
+  color: grey;
+  margin-top: 15px;
+}
+#chocolate, #posted{
+  line-height: 0;
 }
 
 #top-left, #top-right{
   display: inline-block;
 }
 #top-left{
-  margin-right: 575px;
+  margin-right: 625px;
+}
+
+#top-right{
+  font-family: 'Khand', sans-serif;
+  color: grey;
 }
 #image{
   margin-left: 100px;
+}
+#background{
+  margin-left: 100px;
+#text{
+  background-color: #ffffff;
+  opacity: 0.6;
+}
+}
+#directions{
+  text-indent: 30px;
+  margin-left: 90px;
+  margin-right: 450px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+#first, #second, #third{
+  margin-bottom: 30px;
+}
+#first-checklist{
+  list-style-type: square;
+  margin: 200px;
+}
+#first-checklist, #second-checklist{
+  display: inline-block;
+}
+#checklist{
+  list-style-position: inside;
+  margin-left: 90px;
+  margin-right: 450px;
+  margin-bottom: 0;
+  background-image:url(lab-assets/list-bg.png);
+}
+#share{
+  font-family: 'Khand', sans-serif;
+  color: white;
+  background-color: #D2691E;
+
+}
+#vanessa{
+  margin-right: 15px;
+}
+#overview{
+  width: 500px;
+  margin-right: 220px;
+}
+#vanessa, #overview, #share{
+  display: inline-block;
+}
+#last-box{
+  margin-left: 90px;
+  margin-right: 450px;
+}
+#ending{
+  align: center;
+  color: grey;
+  text-align: center;
+}
+#footer{
+  width: 1000px;
+  align: center;
+  margin-left: 50px;
+
 }
