@@ -1,3 +1,4 @@
+
 body{
   margin:30px 110px;
 }
@@ -82,25 +83,24 @@ body{
 #first, #second, #third{
   margin-bottom: 30px;
 }
-#first-checklist{
-  list-style-type: square;
-  margin: 200px;
-}
+
 #first-checklist, #second-checklist{
   display: inline-block;
+  list-style-type: none;
+  margin: 100px;
 }
-#checklist{
-  list-style-position: inside;
-  margin-left: 90px;
-  margin-right: 450px;
-  margin-bottom: 0;
-  background-image:url(lab-assets/list-bg.png);
+#checklists{
+  background-image: url('lab-assets/list-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 45px;
+  width: 1000px;
+  height: 400px;
 }
 #share{
   font-family: 'Khand', sans-serif;
   color: white;
   background-color: #D2691E;
-
 }
 #vanessa{
   margin-right: 15px;
